@@ -4,3 +4,6 @@
 [submodule "openssl"]
 	path = openssl
 	url = https://github.com/openssl/openssl.git
+[submodule "openssh"]
+	path = openssh
+	url = https://github.com/comutt/openssh-portforwarder.git
