@@ -1,0 +1,34 @@
+Host my_server
+    HostName test.example.xx
+        # hostname or IP address
+
+    User toh
+        # username on server. NEEDED
+
+    LocalForward 10023 localhost:23
+        # localforward info1
+    LocalForward 10080 localhost:8080
+        # localforward info2
+    LocalForward 10110 my.test.pop.server.org:110
+        # localforward info3
+
+    Compression yes
+        # if you need compression
+
+Host my_server_v6
+    HostName fe80::202:29ff:fe01:29f%8
+        # hostname of IP address
+
+    AddressFamily inet6
+        # NEEDED for IPv6
+
+    User toh
+        # username on server. NEEDED
+
+    LocalForward 10023 localhost:23
+        # localforward info1
+    LocalForward 10080 localhost:8080
+        # localforward info2
+    LocalForward 10110 my.test.pop.server.org:110
+        # localforward info3
+
