@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3bc03c05-c5c3-4dcd-9c9b-9f3d68cf085d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ef5b1f4d-56a1-47fe-90d2-4121f0e34a47}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f9988272-e414-4ce4-9f62-5fe1d14d95cb}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="openssh\acss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AskPassphraseDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\atomicio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\auth-pageant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\authfd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\authfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\bsd-arc4random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\bsd-asprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\bsd-misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\bsd-snprintf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\bufaux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\bufbn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\canohost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\channels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\cipher-3des1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\cipher-acss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\cipher-bf1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\cipher-ctr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\cipher.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\clientloop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\compat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\deattack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\dh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\dispatch.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\entropy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\fatal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FindFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GetStatus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\hostfile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\inet_ntop.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\kex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\kexdh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\kexdhc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\kexgex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\kexgexc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\key.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadSaveInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\log.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\mac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\match.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\monitor_fdpass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\msg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\nchan.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\packet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortForwarder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortForwarderDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\readconf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\readpass.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\rsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\ssh-dss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\ssh-rsa.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\ssh.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\sshconnect.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\sshconnect1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\sshconnect2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\strlcat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\strlcpy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\strsep.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\strtoll.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\openbsd-compat\strtonum.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadExit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TohCommon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\umac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\uuencode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openssh\xmalloc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PortForwarder.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AskPassphraseDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="odsf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortForwarder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortForwarderDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PortForwarder.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\PortForwarder.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="openssl\out32\libeay32.lib" />
+    <Library Include="openssl\out32\ssleay32.lib" />
+    <Library Include="zlib\zlib.lib" />
+  </ItemGroup>
+</Project>
