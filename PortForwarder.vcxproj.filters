@@ -270,6 +270,6 @@
   <ItemGroup>
     <Library Include="openssl\out32\libeay32.lib" />
     <Library Include="openssl\out32\ssleay32.lib" />
-    <Library Include="zlib\zlib.lib" />
+    <Library Include="zlib\Release\zlib.lib" />
   </ItemGroup>
 </Project>
