@@ -16,25 +16,27 @@ http://toh.fuji-climb.org/pf/licence.html
 
 ## How to build
 
-### 1. OpenSSL
+### 1. Clone Repository
 
-1. `git clone https://github.com/comutt/PortForwarder.git`
-2. `cd PortForwarder/openssl`
-3. `perl Configure VC-WIN32`
-4. `ms\do_ms`
-5. Replace `/MD` with `/MT` in ms\nt.mak
-6. `nmake -f ms\nt.mak`
+1. `git clone --recursive https://github.com/comutt/portforwarder.git`
+2. `cd portforwarder`
 
-### 2. zlib
+### 2. OpenSSL
+
+1. `cd openssl`
+2. `perl Configure VC-WIN32`
+3. `ms\do_ms`
+4. Replace `/MD` with `/MT` in ms\nt.mak
+5. `nmake -f ms\nt.mak`
+6. `cd ..`
+
+### 3. zlib
 
 1. `cd zlib`
-2. Add
+2. `cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS_DEBUG=/MTd -DCMAKE_C_FLAGS_RELEASE=/MT .`
+3. `msbuild ALL_BUILD.vcxproj /p:configuration=Release`
+4. `cd ..`
 
-        set(CMAKE_C_FLAGS "${CMAKE_CXX_FLAGS} /MT")
-        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /MT")
+### 4. PortForwarder
 
-3. `cmake .`
-
-### 3. PortForwarder
-
-Coming soon (maybe)
+1. `msbuild PortForwarder.vcxproj /p:configuration=Release`
