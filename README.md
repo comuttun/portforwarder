@@ -37,7 +37,7 @@ The following build procedure is based on [the original procedure](http://toh.fu
 ### 3. zlib
 
 1. `cd zlib`
-2. `cmake -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_FLAGS_DEBUG=/MTd -DCMAKE_C_FLAGS_RELEASE=/MT .`
+2. `cmake -DCMAKE_C_FLAGS_DEBUG=/MTd -DCMAKE_C_FLAGS_RELEASE=/MT .`
 3. `msbuild ALL_BUILD.vcxproj /p:configuration=Release`
 4. `cd ..`
 

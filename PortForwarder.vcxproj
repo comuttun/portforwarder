@@ -564,7 +564,7 @@
   <ItemGroup>
     <Library Include="openssl\out32\libeay32.lib" />
     <Library Include="openssl\out32\ssleay32.lib" />
-    <Library Include="zlib\Release\zlib.lib" />
+    <Library Include="zlib\Release\zlibstatic.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
