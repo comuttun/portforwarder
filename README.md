@@ -6,7 +6,9 @@ http://toh.fuji-climb.org/pf/
 
 ## License
 
-http://toh.fuji-climb.org/pf/licence.html
+This software license is originally provided at [the author's site](http://toh.fuji-climb.org/pf/licence.html).
+
+see [LICENSE.txt](LICENSE.txt).
 
 ## Prerequisite
 
@@ -15,6 +17,8 @@ http://toh.fuji-climb.org/pf/licence.html
 * CMake
 
 ## How to build
+
+The following build procedure is based on [the original procedure](http://toh.fuji-climb.org/pf/howtobuild.html).
 
 ### 1. Clone Repository
 
