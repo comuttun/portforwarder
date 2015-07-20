@@ -13,8 +13,8 @@ see [LICENSE.txt](LICENSE.txt).
 ## Prerequisite
 
 * Microsoft Visual Studio 2013
-* Multibyte MFC Library for Visual Studio 2013
-* CMake
+* [Multibyte MFC Library for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40770)
+* [CMake](http://www.cmake.org/download/)
 
 ## How to build
 
